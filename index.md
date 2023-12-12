@@ -13,16 +13,26 @@ externalLinks: externalLinks.json
 <body>
     # Welcome to My Site
 
-{% assign externalLinksData = data.externalLinks.links %}
 
-<h2>Mexican Recipes:</h2>
-<ul>
-  {% for link in externalLinksData %}
-    {% if "mexican" in link.tags %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+    ### Turkish
+
+    <ul>
+        {% for link in externalLinks.links %}
+            {% if "turkish" in link.categories %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    ### Mexican
+
+    <ul>
+        {% for link in externalLinks.links %}
+            {% if "mexican" in link.categories %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 
 </body>
 </html>
