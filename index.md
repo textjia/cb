@@ -18,7 +18,7 @@ externalLinks: externalLinks.json
 
     <ul>
         {% for link in externalLinks.links %}
-            {% if "turkish" in link.categories %}
+            {% if "turkish" in data.externalLinks.categories %}
                 <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
         {% endfor %}
@@ -33,6 +33,8 @@ externalLinks: externalLinks.json
             {% endif %}
         {% endfor %}
     </ul>
+
+
 
 </body>
 </html>
