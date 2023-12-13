@@ -3,18 +3,18 @@
     {
       "title": "Turkish Iskembe Corbasi",
       "url": "https://jiawp.neocities.org/d1255.txt",
-      "categories": ["turkish"]
+      "key1": "turkish"
       
     },
     {
       "title": "Turkish Imam Bayildi",
       "url": "https://jiawp.neocities.org/d1254.txt",
-      "categories": ["turkish", "soups-stews"]
+      "key1": "turkish"
     },
     {
       "title": "Mexican Chiles Rellenos",
       "url": "https://jiawp.neocities.org/d1104.txt",
-      "categories": ["mexican", "soups-stews"]
+      "key1": "mexican"
     }
   ]
 }
