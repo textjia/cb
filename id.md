@@ -7,10 +7,9 @@ externalLinks: externalLinks.json
 
 
 <ul>
-    {% for link in externalLinks.links %}
-       
+    {%- for link in externalLinks.links | sortByName -%}
+        
             <li><a href="{{ link.url }}">{{ link.id }} - {{ link.title }}</a></li>
-         
-    {% endfor %}
+        
+    {%- endfor -%}
 </ul>
-
