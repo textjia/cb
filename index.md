@@ -13,7 +13,7 @@ externalLinks: externalLinks.json
 <body>
 # CatJohn's GF Cookbook
 
-### Turkish
+### Turkish ###
 <ul>
     {% for link in externalLinks.links %}
         {% if link.key1 == "turkish" %}
@@ -21,7 +21,7 @@ externalLinks: externalLinks.json
         {% endif %} 
     {% endfor %}
 </ul>
-### Mexican
+### Mexican ###
 <ul>
     {% for link in externalLinks.links %}
         {% if link.key1 == "mexican" %}
@@ -30,7 +30,7 @@ externalLinks: externalLinks.json
     {% endfor %}
 </ul>
 
-### Soup & Stews
+### Soup & Stews ###
 
 <ul>
     {% for link in externalLinks.links %}
