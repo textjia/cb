@@ -8,7 +8,7 @@ pagination:
   alias: paginatedLinks
   reverse: false
 ---
-# ID VIEW
+# TITLE VIEW
 
 
         <ul class="list-group">
