@@ -5,22 +5,14 @@ externalLinks: externalLinks.json
 ---
 # RECIPES BY DISH #
 
-### Salad ###
+### Veggie ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key2 == "salad" %}
+        {% if link.key2 == "veggie" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endif %} 
     {% endfor %}
 </ul>
 
-### Soups & Stews ###
-<ul>
-    {% for link in externalLinks.links %}
-        {% if link.key2 == "soups-stews" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endif %} 
-    {% endfor %}
-</ul>
 
 

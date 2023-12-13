@@ -33,12 +33,20 @@ externalLinks: externalLinks.json
     {% endfor %}
 </ul>
 
-<>
-<a class="page-link" href="/country/">COUNTRY</a>
-<a class="page-link" href="/dish/">DISH</a>
-<a class="page-link" href="/ingredient/">INGREDIENT</a>
-<a class="page-link" href="/id/">ID</a>
-<a class="page-link" href="/title/">TITLE</a>
+
+<table border="0" cellpadding="3">
+<tr>
+<td><a class="page-link" href="/country/">COUNTRY</a></td>
+<td><a class="page-link" href="/dish/">DISH</a></td>
+<td><a class="page-link" href="/ingredient/">INGREDIENT</a></td>
+<td><a class="page-link" href="/id/">ID</a></td>
+<td><a class="page-link" href="/title/">TITLE</a></td>
+<td><a class="page-link" href="/32/">32</a></td>
+<td><a class="page-link" href="/64/">64</a></td>
+<td><a class="page-link" href="/128/">128</a></td>
+</tr>
+</table>
+
     
 
  

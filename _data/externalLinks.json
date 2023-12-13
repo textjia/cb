@@ -1,38 +1,15 @@
 {
   "links": [
     {
-      "title": "Esquites (Mexican Street Corn)",
+      "title": "Cauliflower With Brown Butter Breadcrumbs",
       "url": "https://jiawp.neocities.org/mex1.txt",
-      "key1": "mexican",
-      "key2": "salad",
-      "key3": "corn",
-      "id": "000004"
+      "key1": "american",
+      "key2": "veggie",
+      "key3": "cauliflower",
+      "id": "000001",
+      "image": "https://jiawp.neocities.org/d1258.txt"
       
-    },
-    {
-      "title": "Turkish Iskembe Corbasi",
-      "url": "https://jiawp.neocities.org/d1255.txt",
-      "key1": "turkish",
-      "key2": "soups-stews",
-      "key3": "beef-tripe",
-      "id": "000001"
-      
-    },
-    {
-      "title": "Turkish Imam Bayildi",
-      "url": "https://jiawp.neocities.org/d1254.txt",
-      "key1": "turkish",
-      "key2": "soups-stews",
-      "key3": "eggplant",
-      "id": "000002"
-    },
-    {
-      "title": "Mexican Chiles Rellenos",
-      "url": "https://jiawp.neocities.org/d1104.txt",
-      "key1": "mexican",
-      "key2": "soups-stews",
-      "key3": "pepper",
-      "id": "000003"
     }
+    
   ]
 }
