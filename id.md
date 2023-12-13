@@ -3,7 +3,7 @@ layout: layout.html
 title: Home Page
 externalLinks: externalLinks.json
 ---
-# ALL VIEW #
+# ID VIEW
 
 ### Turkish ###
 <ul>
