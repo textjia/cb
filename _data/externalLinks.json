@@ -4,20 +4,26 @@
       "title": "Turkish Iskembe Corbasi",
       "url": "https://jiawp.neocities.org/d1255.txt",
       "key1": "turkish",
-      "key2": "soups-stews"
+      "key2": "soups-stews",
+      "key3": "beef-tripe",
+      "id": "000001"
       
     },
     {
       "title": "Turkish Imam Bayildi",
       "url": "https://jiawp.neocities.org/d1254.txt",
       "key1": "turkish",
-      "key2": "soups-stews"
+      "key2": "soups-stews",
+      "key3": "eggplant",
+      "id": "000002"
     },
     {
       "title": "Mexican Chiles Rellenos",
       "url": "https://jiawp.neocities.org/d1104.txt",
       "key1": "mexican",
-      "key2": "soups-stews"
+      "key2": "soups-stews",
+      "key3": "pepper",
+      "id": "000003"
     }
   ]
 }

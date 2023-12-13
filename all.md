@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: All Recipe Page
 externalLinks: externalLinks.json
 ---
 
