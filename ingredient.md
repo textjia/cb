@@ -1,46 +1,35 @@
 ---
 layout: layout.html
-title: Home Page
+title: Ingredient Page
 externalLinks: externalLinks.json
 ---
-# CatJohn's GF Cookbook #
+# RECIPES BY INGREDIENT #
 
-### Turkish ###
+### Beef-Tripe ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key1 == "turkish" %}
+        {% if link.key3 == "beef-tripe" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endif %} 
     {% endfor %}
 </ul>
 
-### Mexican ###
+### Corn ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key1 == "mexican" %}
+        {% if link.key3 == "corn" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endif %} 
     {% endfor %}
 </ul>
 
-### Soup & Stews ###
-
+### Eggplant ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key2 == "soups-stews" %}
+        {% if link.key3 == "eggplant" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endif %} 
     {% endfor %}
 </ul>
-
-<a class="page-link" href="/country/">RECIPE BY COUNTRY</a>
-<a class="page-link" href="/dish/">RECIPE BY DISH</a>
-<a class="page-link" href="/ingredient/">RECIPE BY INGREDIENT</a>
-<a class="page-link" href="/id/">RECIPE BY ID</a>
-<a class="page-link" href="/title/">RECIPE BY TITLE</a>
-    
-
- 
-
 
 
