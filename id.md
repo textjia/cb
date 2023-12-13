@@ -10,12 +10,6 @@ pagination:
 ---
 # ID VIEW
 
-<ul>
-    {%- assign sortedLinks = externalLinks.links | sort: 'id' -%}
-    {%- for link in sortedLinks -%}
-        <li><a href="{{ link.url }}">{{ link.id }} - {{ link.title }}</a></li>
-    {%- endfor -%}
-</ul>
 
         <ul class="list-group">
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'id' -%}

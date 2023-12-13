@@ -33,11 +33,12 @@ externalLinks: externalLinks.json
     {% endfor %}
 </ul>
 
-<a class="page-link" href="/country/">RECIPE BY COUNTRY</a>
-<a class="page-link" href="/dish/">RECIPE BY DISH</a>
-<a class="page-link" href="/ingredient/">RECIPE BY INGREDIENT</a>
-<a class="page-link" href="/id/">RECIPE BY ID</a>
-<a class="page-link" href="/title/">RECIPE BY TITLE</a>
+<>
+<a class="page-link" href="/country/">COUNTRY</a>
+<a class="page-link" href="/dish/">DISH</a>
+<a class="page-link" href="/ingredient/">INGREDIENT</a>
+<a class="page-link" href="/id/">ID</a>
+<a class="page-link" href="/title/">TITLE</a>
     
 
  
