@@ -4,7 +4,7 @@ title: ID Page
 externalLinks: externalLinks.json
 pagination:
   data: externalLinks.links
-  size: 2
+  size: 9
   alias: paginatedLinks
   reverse: false
 ---

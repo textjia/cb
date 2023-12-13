@@ -2,12 +2,38 @@
 layout: layout.html
 title: Title Page
 externalLinks: externalLinks.json
+pagination:
+  data: externalLinks.links
+  size: 9
+  alias: paginatedLinks
+  reverse: false
 ---
-# ALL VIEW #
+# ID VIEW
 
-<ul>
-    {%- assign sortedLinks = externalLinks.links | sort: 'title' -%}
-    {%- for link in sortedLinks -%}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-    {%- endfor -%}
+
+        <ul class="list-group">
+    {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
+    {%- for paginatedLink in sortedPaginatedLinks %}
+        <li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }} - {{ paginatedLink.id }}</a></li>
+    {%- endfor %}
 </ul>
+
+   <table border=0 cellpadding=3 width=32 height=32>
+        <tr>
+        
+        {% if pagination.href.previous %}      
+                <td><a class="page-link" href="{{ pagination.href.previous }}" tabindex="-1">Previous</a></td>     
+        {% endif %}
+        
+        {% for pageNumber in pagination.pages %}
+              <td><a class="page-link" href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></td>
+        {% endfor %}
+        
+        {% if pagination.href.next %}
+              <td>
+                <a class="page-link" href="{{ pagination.href.next }}">Next</a>
+              </td>
+        {% endif %}
+        
+        </tr>
+        </table>
