@@ -1,18 +1,9 @@
 ---
 layout: layout.html
-title: Home Page
+title: Country Page
 externalLinks: externalLinks.json
 ---
-# CatJohn's GF Cookbook #
-
-### Turkish ###
-<ul>
-    {% for link in externalLinks.links %}
-        {% if link.key1 == "turkish" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-        {% endif %} 
-    {% endfor %}
-</ul>
+# RECIPES BY COUNTRY #
 
 ### Mexican ###
 <ul>
@@ -23,20 +14,12 @@ externalLinks: externalLinks.json
     {% endfor %}
 </ul>
 
-### Soup & Stews ###
-
+### Turkish ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key2 == "soups-stews" %}
+        {% if link.key1 == "turkish" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
         {% endif %} 
     {% endfor %}
 </ul>
-
-<a class="page-link" href="/country/">RECIPE BY COUNTRY</a>
-    
-
- 
-
-
 

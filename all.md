@@ -1,6 +1,6 @@
 ---
 layout: layout.html
-title: Home Page
+title: All Page
 externalLinks: externalLinks.json
 ---
 # ALL VIEW #
