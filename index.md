@@ -18,13 +18,23 @@ externalLinks: externalLinks.json
 
     <ul>
         {% for link in externalLinks.links %}
-            {% if externalLinks.data.categories == "turkish" %}
+            {% if link.key1 == "turkish" %}
                 <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
+            {% endif %} 
         {% endfor %}
     </ul>
 
     ### Mexican
+
+    <ul>
+        {% for link in externalLinks.links %}
+            {% if link.key1 == "mexican" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %} 
+        {% endfor %}
+    </ul>
+
+    
 
  
 
