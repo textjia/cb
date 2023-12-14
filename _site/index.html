@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1>CatJohn's GF Cookbook</h1>
+<p id="totalCountPlaceholder"></p>
 <h3>Generic</h3>
 <ul>
 <p><li><a href="https://jiawp.neocities.org/d1258.txt">Cauliflower With Brown Butter Breadcrumbs</a></li></p>
@@ -32,6 +33,19 @@
 </tr>
 </table>
 <p>Total # of recipes so far: 2</p>
+<script>
+  // Wait for the DOM to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the totalCount value
+    var totalCountValue = 2;
+
+    // Find the placeholder element
+    var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
+
+    // Move totalCount to the placeholder
+    totalCountPlaceholder.textContent = 'Total # of recipes so far: ' + totalCountValue;
+  });
+</script>
 
 </body>
 </html>

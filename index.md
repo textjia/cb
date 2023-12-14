@@ -4,6 +4,7 @@ title: Home Page
 externalLinks: externalLinks.json
 ---
 # CatJohn's GF Cookbook #
+<p id="totalCountPlaceholder"></p>
 
 {% assign totalCount = 0 %}
 
@@ -53,6 +54,20 @@ externalLinks: externalLinks.json
 </table>
 
 <p>Total # of recipes so far: {{ totalCount }}</p>
+
+<script>
+  // Wait for the DOM to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the totalCount value
+    var totalCountValue = {{ totalCount }};
+
+    // Find the placeholder element
+    var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
+
+    // Move totalCount to the placeholder
+    totalCountPlaceholder.textContent = 'Total # of recipes so far: ' + totalCountValue;
+  });
+</script>
     
 
  
