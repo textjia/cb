@@ -9,12 +9,14 @@ pagination:
   reverse: false
 ---
 # TITLE VIEW
-
+<p id="totalCountPlaceholder"></p>
+{% assign totalCount = 0 %}
 
         <ul class="list-group">
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
     {%- for paginatedLink in sortedPaginatedLinks %}
         <li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }} - {{ paginatedLink.id }}</a></li>
+        {% assign totalCount = totalCount | plus: 1 %}
     {%- endfor %}
 </ul>
 
@@ -37,3 +39,19 @@ pagination:
         
         </tr>
         </table>
+
+        <p>Total # of recipes so far: {{ totalCount }}</p>
+
+        <script>
+  // Wait for the DOM to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the totalCount value
+    var totalCountValue = {{ totalCount }};
+
+    // Find the placeholder element
+    var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
+
+    // Move totalCount to the placeholder
+    totalCountPlaceholder.textContent = 'Total # of recipes so far: ' + totalCountValue;
+  });
+</script>
