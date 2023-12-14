@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>32 Pixel Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+<p>.flex-container {
+display: flex;
+margin: 0;
+padding: 0;
+list-style: none;
+}</p>
+<p>.flex-item {
+width: 32px;
+height: 32px;
+margin: 0;
+padding: 0;
+}</p>
+<p>/* Optional: Add some styling for the images */
+.flex-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+</style></p>
 </head>
 <body>
-<p><a href="https://jiawp.neocities.org/cjj001.PNG"><img src="https://jiawp.neocities.org/cjj001.PNG" border="0" alt="Cauliflower With Brown Butter Breadcrumbs" width="32" height="32"></a></p>
-<p><a href="https://jiawp.neocities.org/cjj002.PNG"><img src="https://jiawp.neocities.org/cjj002.PNG" border="0" alt="Beef Stroganoff" width="32" height="32"></a></p>
+<ul class="flex-container">
+<p><li class="flex-item"><a href="https://jiawp.neocities.org/cjj001.PNG"><img src="https://jiawp.neocities.org/cjj001.PNG" border="0" alt="Cauliflower With Brown Butter Breadcrumbs" width="32" height="32"></a></li></p>
+<p><li class="flex-item"><a href="https://jiawp.neocities.org/cjj002.PNG"><img src="https://jiawp.neocities.org/cjj002.PNG" border="0" alt="Beef Stroganoff" width="32" height="32"></a></li></p>
+<p><li class="flex-item"><a href="https://jiawp.neocities.org/cjj003.PNG"><img src="https://jiawp.neocities.org/cjj003.PNG" border="0" alt="Shrimp Chow Mei Fun" width="32" height="32"></a></li></p>
 </ul>
-
 </body>
 </html>

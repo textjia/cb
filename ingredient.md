@@ -23,6 +23,16 @@ externalLinks: externalLinks.json
     {% endfor %}
 </ul>
 
+### Shrimp ###
+<ul>
+    {% for link in externalLinks.links %}
+        {% if link.key3 == "shrimp" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endif %} 
+    {% endfor %}
+</ul>
+
+
 
 
 

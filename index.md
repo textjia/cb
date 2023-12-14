@@ -5,30 +5,35 @@ externalLinks: externalLinks.json
 ---
 # CatJohn's GF Cookbook #
 
-### Turkish ###
+{% assign totalCount = 0 %}
+
+### Generic ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key1 == "turkish" %}
+        {% if link.key1 == "generic" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% assign totalCount = totalCount | plus: 1 %}
         {% endif %} 
     {% endfor %}
 </ul>
 
-### Mexican ###
+### Russian ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key1 == "mexican" %}
+        {% if link.key1 == "russian" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% assign totalCount = totalCount | plus: 1 %}
         {% endif %} 
     {% endfor %}
 </ul>
 
-### Soup & Stews ###
+### Chinese ###
 
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key2 == "soups-stews" %}
+        {% if link.key2 == "chineses" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% assign totalCount = totalCount | plus: 1 %}
         {% endif %} 
     {% endfor %}
 </ul>
@@ -47,6 +52,7 @@ externalLinks: externalLinks.json
 </tr>
 </table>
 
+<p>Total # of recipes so far: {{ totalCount }}</p>
     
 
  
