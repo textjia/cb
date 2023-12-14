@@ -31,7 +31,7 @@ externalLinks: externalLinks.json
 ### Entree ###
 <ul>
     {% for link in externalLinks.links %}
-        {% if link.key2 == "entre" %}
+        {% if link.key2 == "entree" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% assign totalCount = totalCount | plus: 1 %}
         {% endif %} 
