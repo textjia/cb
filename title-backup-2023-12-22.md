@@ -8,8 +8,8 @@ pagination:
   alias: paginatedLinks
   reverse: false
 ---
-# by Recipe Title
-
+# TITLE VIEW
+<p id="totalCountPlaceholder"></p>
 {% assign totalCount = 0 %}
 
         <ul class="list-group">
@@ -40,5 +40,18 @@ pagination:
         </tr>
         </table>
 
-        
+        <p>Total # of recipes so far: {{ totalCount }}</p>
 
+        <script>
+  // Wait for the DOM to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the totalCount value
+    var totalCountValue = {{ totalCount }};
+
+    // Find the placeholder element
+    var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
+
+    // Move totalCount to the placeholder
+    totalCountPlaceholder.textContent = 'Total # of recipes so far: ' + totalCountValue;
+  });
+</script>
