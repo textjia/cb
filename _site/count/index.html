@@ -5,12 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count.html</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #totalCountContainer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            background-color: #ffffff; /* Add your desired background color */
+        }
+    </style>
     
 </head>
 
 <body>
    
-
+    <div id="totalCountContainer">
     
 
     
@@ -32,7 +51,7 @@
 
     <p>Total # of recipes so far: 3</p>
 
-<script>
+    <script>
         // Wait for the DOM to be ready
         document.addEventListener('DOMContentLoaded', function() {
           // Get the totalCount value
@@ -44,7 +63,7 @@
           // Move totalCount to the placeholder
           totalCountPlaceholder.textContent = totalCountValue;
         });
-</script>
+    </script>
 </body>
 
 </html>
