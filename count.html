@@ -13,7 +13,7 @@ externalLinks: externalLinks.json
 </head>
 
 <body>
-    <p><font face="Courier" size="1">Today we have <p id="totalCountPlaceholder"><font face="Courier" size="1"></font></p> recipes : )</font></p>
+   
 
     {% assign totalCount = 0 %}
 
@@ -23,12 +23,7 @@ externalLinks: externalLinks.json
             {% assign totalCount = totalCount | plus: 1 %}
          
     {% endfor %}
-<br><br><br>&nbsp;
-<br>&nbsp;
-<br>&nbsp;
-<br>&nbsp;
-<br>&nbsp;
-<br>
+
     <p>Total # of recipes so far: {{ totalCount }}</p>
 
 <script>
