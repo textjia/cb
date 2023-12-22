@@ -9,32 +9,12 @@ externalLinks: externalLinks.json
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count.html</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            
-            
-            
-            overflow: hidden;
-        }
-
-        #totalCountContainer {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 10px;
-            background-color: #ffffff; /* Add your desired background color */
-            font-family: Courier, monospace; /* Set the font-family to Courier */
-            font-size: 1em; /* Set the font size to 1em (the smallest value) */
-        }
-    </style>
+    
     
 </head>
 
 <body>
-    <div id="totalCountContainer">
+    
     {% assign totalCount = 0 %}
 
     {% for link in externalLinks.links %}
@@ -43,22 +23,14 @@ externalLinks: externalLinks.json
             {% assign totalCount = totalCount | plus: 1 %}
          
     {% endfor %}
+<table border="0" width="100%">
+    <tr>
+        <td width="100%" valign="middle" align="right"><p>Total # of recipes so far: {{ totalCount }}</p></td>
+    </tr>
+</table>
 
-    <p>Total # of recipes so far: {{ totalCount }}</p>
 
-    <script>
-        // Wait for the DOM to be ready
-        document.addEventListener('DOMContentLoaded', function() {
-          // Get the totalCount value
-          var totalCountValue = {{ totalCount }};
-      
-          // Find the placeholder element
-          var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
-      
-          // Move totalCount to the placeholder
-          totalCountPlaceholder.textContent = totalCountValue;
-        });
-    </script>
+   
 </body>
 
 </html>
