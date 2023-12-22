@@ -12,25 +12,15 @@ externalLinks: externalLinks.json
     
     
 </head>
-
 <body>
-    
     {% assign totalCount = 0 %}
-
-    {% for link in externalLinks.links %}
-       
-            
-            {% assign totalCount = totalCount | plus: 1 %}
-         
+    {% for link in externalLinks.links %}       
+            {% assign totalCount = totalCount | plus: 1 %}    
     {% endfor %}
 <table border="0" width="100%">
     <tr>
         <td width="100%" valign="middle" align="right"><p>Total # of recipes so far: {{ totalCount }}</p></td>
     </tr>
-</table>
-
-
-   
+</table> 
 </body>
-
 </html>
