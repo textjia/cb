@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count.html</title>
+    <style>
+        body {
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            display: flex;
+            justify-content: flex-end; /* Align items to the right */
+            align-items: flex-start; /* Align items to the top */
+            height: 100vh; /* Make the body take the full viewport height */
+            background-color: #ffffff; /* Set background color */
+        }
+
+        p {
+            margin: 3px; /* 3-pixel margin on all sides */
+        }
+    </style>
+</head>
+
+<body>
+    <p><font face="Courier" size="1">Today we have <p id="totalCountPlaceholder"></p> recipes : )</font></p>
+
+    
+
+    
+       
+            
+            
+         
+    
+       
+            
+            
+         
+    
+       
+            
+            
+         
+    
+
+    <p>Total # of recipes so far: 3</p>
+
+<script>
+        // Wait for the DOM to be ready
+        document.addEventListener('DOMContentLoaded', function() {
+          // Get the totalCount value
+          var totalCountValue = 3;
+      
+          // Find the placeholder element
+          var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
+      
+          // Move totalCount to the placeholder
+          totalCountPlaceholder.textContent = 'Total # of recipes so far: ' + totalCountValue;
+        });
+</script>
+</body>
+
+</html>
