@@ -27,7 +27,7 @@ externalLinks: externalLinks.json
 </head>
 
 <body>
-    <p><font face="Courier" size="1">Today we have <p id="totalCountPlaceholder"></p> recipes : )</font></p>
+    <p><font face="Courier" size="1">Today we have <p id="totalCountPlaceholder"><font face="Courier" size="1"></font></p> recipes : )</font></p>
 
     {% assign totalCount = 0 %}
 
@@ -50,7 +50,7 @@ externalLinks: externalLinks.json
           var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
       
           // Move totalCount to the placeholder
-          totalCountPlaceholder.textContent = 'Total # of recipes so far: ' + totalCountValue;
+          totalCountPlaceholder.textContent = totalCountValue;
         });
 </script>
 </body>
