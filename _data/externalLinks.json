@@ -337,6 +337,45 @@
       "hot": "",
       "date": "2023-12-22"
 
+    },
+    {
+      "title": "Beef with Broccoli",
+      "url": "https://jiawp.neocities.org/x004.txt",
+      "key1": "chinese",
+      "key2": "entree",
+      "key3": "beef",
+      "id": "0000027",
+      "image": "https://jiawp.neocities.org/x004.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
+    },
+    {
+      "title": "Shrimp Lo Mein",
+      "url": "https://jiawp.neocities.org/x005.txt",
+      "key1": "chinese",
+      "key2": "entree",
+      "key3": "shrimp",
+      "id": "0000028",
+      "image": "https://jiawp.neocities.org/x005.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
+    },
+    {
+      "title": "Shrimp Fried Rice",
+      "url": "https://jiawp.neocities.org/x006.txt",
+      "key1": "chinese",
+      "key2": "entree",
+      "key3": "shrimp",
+      "id": "0000029",
+      "image": "https://jiawp.neocities.org/x006.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
     }
 
   ]
