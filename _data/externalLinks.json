@@ -11,7 +11,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     },
     {
       "title": "Beef Stroganoff",
@@ -24,7 +24,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     },
     {
       "title": "Shrimp Chow Mei Fun",
@@ -37,7 +37,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     },
     {
       "title": "Shrimp with Lobster Sauce",
@@ -50,7 +50,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     },
     {
       "title": "Egg Drop Soup",
@@ -63,7 +63,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     }, 
     {
       "title": "Hot and Sour Soup",
@@ -76,7 +76,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     },
     {
       "title": "Yougaejang",
@@ -89,7 +89,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-15"
-      
+
     },
     {
       "title": "Youtiao",
@@ -102,7 +102,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-19"
-      
+
     },
     {
       "title": "Shaobing",
@@ -115,7 +115,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-19"
-      
+
     },
     {
       "title": "Niu Rou Mian",
@@ -128,7 +128,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-19"
-      
+
     },
     {
       "title": "Pad Thai",
@@ -141,7 +141,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Hainanese Chicken Rice",
@@ -154,7 +154,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Goi Cuon",
@@ -167,7 +167,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     }, 
     {
       "title": "Rouladen",
@@ -180,7 +180,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "3 Cup Chicken",
@@ -193,7 +193,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Oyster Omelette",
@@ -206,7 +206,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Gua Bao",
@@ -219,7 +219,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Lu Rou Fan",
@@ -232,7 +232,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Nam Sod",
@@ -245,7 +245,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Stinky Tofu",
@@ -258,7 +258,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     }, 
     {
       "title": "Taiwanese Fried Chicken",
@@ -271,7 +271,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Scallion Pancakes",
@@ -284,7 +284,7 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
     },
     {
       "title": "Kimchi",
@@ -297,8 +297,47 @@
       "fav": "",
       "hot": "",
       "date": "2023-12-20"
-      
+
+    },
+    {
+      "title": "Burbon Chicken",
+      "url": "https://jiawp.neocities.org/x001.txt",
+      "key1": "chinese",
+      "key2": "entree",
+      "key3": "chicken",
+      "id": "0000024",
+      "image": "https://jiawp.neocities.org/x001.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
+    },
+    {
+      "title": "Boneless Spare Ribs",
+      "url": "https://jiawp.neocities.org/x002.txt",
+      "key1": "chinese",
+      "key2": "ribs",
+      "key3": "pork",
+      "id": "0000025",
+      "image": "https://jiawp.neocities.org/x002.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
+    },
+    {
+      "title": "Chicken with Broccoli",
+      "url": "https://jiawp.neocities.org/x003.txt",
+      "key1": "chinese",
+      "key2": "entree",
+      "key3": "chicken",
+      "id": "0000026",
+      "image": "https://jiawp.neocities.org/x003.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
     }
-    
+
   ]
 }
