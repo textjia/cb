@@ -9,21 +9,7 @@ externalLinks: externalLinks.json
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count.html</title>
-    <style>
-        body {
-            margin: 0; /* Remove default body margin */
-            padding: 0; /* Remove default body padding */
-            
-            justify-content: flex-end; /* Align items to the right */
-            align-items: flex-start; /* Align items to the top */
-            height: 100vh; /* Make the body take the full viewport height */
-            background-color: #ffffff; /* Set background color */
-        }
-
-        p {
-            margin: 3px; /* 3-pixel margin on all sides */
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -37,11 +23,11 @@ externalLinks: externalLinks.json
             {% assign totalCount = totalCount | plus: 1 %}
          
     {% endfor %}
-<br>&nbsp;.
-<br>&nbsp;.
-<br>&nbsp;.
-<br>&nbsp;.
-<br>&nbsp;.
+<br><br><br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
 <br>
     <p>Total # of recipes so far: {{ totalCount }}</p>
 
