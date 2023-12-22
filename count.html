@@ -9,12 +9,31 @@ externalLinks: externalLinks.json
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count.html</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #totalCountContainer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            background-color: #ffffff; /* Add your desired background color */
+        }
+    </style>
     
 </head>
 
 <body>
    
-
+    <div id="totalCountContainer">
     {% assign totalCount = 0 %}
 
     {% for link in externalLinks.links %}
@@ -26,7 +45,7 @@ externalLinks: externalLinks.json
 
     <p>Total # of recipes so far: {{ totalCount }}</p>
 
-<script>
+    <script>
         // Wait for the DOM to be ready
         document.addEventListener('DOMContentLoaded', function() {
           // Get the totalCount value
@@ -38,7 +57,7 @@ externalLinks: externalLinks.json
           // Move totalCount to the placeholder
           totalCountPlaceholder.textContent = totalCountValue;
         });
-</script>
+    </script>
 </body>
 
 </html>
