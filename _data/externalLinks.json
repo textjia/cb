@@ -376,6 +376,32 @@
       "hot": "",
       "date": "2023-12-22"
 
+    },
+    {
+      "title": "Sukiyaki",
+      "url": "https://jiawp.neocities.org/x007.txt",
+      "key1": "japanese",
+      "key2": "entree",
+      "key3": "beef",
+      "id": "0000030",
+      "image": "https://jiawp.neocities.org/x007.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
+    }, 
+    {
+      "title": "Sindhi Biryani",
+      "url": "https://jiawp.neocities.org/x008.txt",
+      "key1": "pakistani",
+      "key2": "rice",
+      "key3": "chicken",
+      "id": "0000031",
+      "image": "https://jiawp.neocities.org/x008.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-22"
+
     }
 
   ]
