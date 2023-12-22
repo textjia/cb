@@ -5,32 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count.html</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            
-            
-            
-            overflow: hidden;
-        }
-
-        #totalCountContainer {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 10px;
-            background-color: #ffffff; /* Add your desired background color */
-            font-family: Courier, monospace; /* Set the font-family to Courier */
-            font-size: 1em; /* Set the font size to 1em (the smallest value) */
-        }
-    </style>
+    
     
 </head>
 
 <body>
-    <div id="totalCountContainer">
+    
     
 
     
@@ -49,22 +29,14 @@
             
          
     
+<table border="0" width="100%">
+    <tr>
+        <td width="100%" valign="middle" align="right"><p>Total # of recipes so far: 3</p></td>
+    </tr>
+</table>
 
-    <p>Total # of recipes so far: 3</p>
 
-    <script>
-        // Wait for the DOM to be ready
-        document.addEventListener('DOMContentLoaded', function() {
-          // Get the totalCount value
-          var totalCountValue = 3;
-      
-          // Find the placeholder element
-          var totalCountPlaceholder = document.getElementById('totalCountPlaceholder');
-      
-          // Move totalCount to the placeholder
-          totalCountPlaceholder.textContent = totalCountValue;
-        });
-    </script>
+   
 </body>
 
 </html>
