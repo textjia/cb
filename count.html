@@ -9,7 +9,21 @@ externalLinks: externalLinks.json
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>count.html</title>
-    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        table {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+        }
+    </style>
     
 </head>
 <body>
@@ -17,9 +31,9 @@ externalLinks: externalLinks.json
     {% for link in externalLinks.links %}       
             {% assign totalCount = totalCount | plus: 1 %}    
     {% endfor %}
-<table border="0" width="100%">
+<table border="0">
     <tr>
-        <td width="100%" valign="middle" align="right"><p>Total # of recipes so far: {{ totalCount }}</p></td>
+        <td valign="middle" align="right"><p>Total # of recipes so far: {{ totalCount }}</p></td>
     </tr>
 </table> 
 </body>
