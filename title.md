@@ -16,11 +16,13 @@ pagination:
        
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
     {%- for paginatedLink in sortedPaginatedLinks -%}
-        <tr><td><a href="{{ paginatedLink.url }}"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></td></tr>
+        <tr><td><a href="{{ paginatedLink.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ paginatedLink.url}}';"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></td></tr>
         {% assign totalCount = totalCount | plus: 1 %}
     {%- endfor -%}
 
 </table>
+
+
 
    <table border=0 cellpadding=3 width=32 height=32>
         <tr>
