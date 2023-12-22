@@ -13,13 +13,13 @@ pagination:
 {% assign totalCount = 0 %}
 
        <table border="0">
-       <tr>
+       
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
     {%- for paginatedLink in sortedPaginatedLinks -%}
-        <td><a href="{{ paginatedLink.url }}"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></td>
+        <tr><td><a href="{{ paginatedLink.url }}"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></td></tr>
         {% assign totalCount = totalCount | plus: 1 %}
     {%- endfor -%}
-</tr>
+
 </table>
 
    <table border=0 cellpadding=3 width=32 height=32>
