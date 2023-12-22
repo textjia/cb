@@ -14,10 +14,10 @@ pagination:
 
         <ol class="list-group">
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
-    {%- for paginatedLink in sortedPaginatedLinks %}
+    {%- for paginatedLink in sortedPaginatedLinks -%}
         <li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }}</a></li>
         {% assign totalCount = totalCount | plus: 1 %}
-    {%- endfor %}
+    {%- endfor -%}
 </ol>
 
    <table border=0 cellpadding=3 width=32 height=32>
