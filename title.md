@@ -8,17 +8,17 @@ pagination:
   alias: paginatedLinks
   reverse: false
 ---
-# by Recipe Title
+<font face="Courier" size="1">by Recipe Title</font>
 
 {% assign totalCount = 0 %}
 
-        <ul class="list-group">
+        <ol class="list-group">
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
     {%- for paginatedLink in sortedPaginatedLinks %}
-        <li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }} - {{ paginatedLink.id }}</a></li>
+        <li><a href="{{ paginatedLink.url }}"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></li>
         {% assign totalCount = totalCount | plus: 1 %}
     {%- endfor %}
-</ul>
+</ol>
 
    <table border=0 cellpadding=3 width=32 height=32>
         <tr>
