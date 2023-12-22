@@ -6,16 +6,29 @@
     <title>32 Pixel Page</title>
     <style>
         body {
-            font-family: Courier, monospace;
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            display: flex;
+            flex-direction: column; /* Set flex direction to column */
+            gap: 0; /* Remove the gap between flex items */
+            background-color: #000000; /* Set background color */
         }
-
-        ol, li {
-            font-size: 1em;
-        }
-    </style>
+<p>a {
+flex: 0 0 32px; /* Set flex properties to control item sizing <em>/
+margin: 0; /</em> Remove default margins <em>/
+padding: 0; /</em> Remove default padding <em>/
+display: block; /</em> Make anchor elements block-level <em>/
+text-decoration: none; /</em> Remove underline <em>/
+color: inherit; /</em> Inherit text color */
+}</p>
+<p>img {
+vertical-align: top; /* Align images to the top <em>/
+margin: 0; /</em> Remove image margins <em>/
+padding: 0; /</em> Remove image padding */
+}
+</style></p>
 </head>
 <body>
-<p><a href="https://jiawp.neocities.org/cjj001.PNG"><img src="https://jiawp.neocities.org/cjj001.PNG" border="0" alt="Cauliflower With Brown Butter Breadcrumbs" width="32" height="32"></a><a href="https://jiawp.neocities.org/cjj002.PNG"><img src="https://jiawp.neocities.org/cjj002.PNG" border="0" alt="Beef Stroganoff" width="32" height="32"></a><a href="https://jiawp.neocities.org/cjj003.PNG"><img src="https://jiawp.neocities.org/cjj003.PNG" border="0" alt="Shrimp Chow Mei Fun" width="32" height="32"></a></p>
-
+    <a href="" target="right-top" onClick="window.parent.frames['right-bottom'].location='';"><img src="" width="32" height="32" title=""></a>
 </body>
 </html>
