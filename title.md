@@ -15,7 +15,7 @@ pagination:
         <ol class="list-group">
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
     {%- for paginatedLink in sortedPaginatedLinks %}
-        <li><a href="{{ paginatedLink.url }}"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></li>
+        <font face="Courier" size="1"><li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }}</font></a></font></li>
         {% assign totalCount = totalCount | plus: 1 %}
     {%- endfor %}
 </ol>
@@ -24,16 +24,16 @@ pagination:
         <tr>
         
         {% if pagination.href.previous %}      
-                <td><a class="page-link" href="{{ pagination.href.previous }}" tabindex="-1">Previous</a></td>     
+                <td><a class="page-link" href="{{ pagination.href.previous }}" tabindex="-1"><font face="Courier" size="1">Previous</font></a></td>     
         {% endif %}
         
         {% for pageNumber in pagination.pages %}
-              <td><a class="page-link" href="{{ pagination.hrefs[forloop.index0] }}">{{ forloop.index }}</a></td>
+              <td><a class="page-link" href="{{ pagination.hrefs[forloop.index0] }}"><font face="Courier" size="1">{{ forloop.index }}</font></a></td>
         {% endfor %}
         
         {% if pagination.href.next %}
               <td>
-                <a class="page-link" href="{{ pagination.href.next }}">Next</a>
+                <a class="page-link" href="{{ pagination.href.next }}"><font face="Courier" size="1">Next</font></a>
               </td>
         {% endif %}
         
