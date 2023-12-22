@@ -15,7 +15,7 @@ pagination:
         <ol class="list-group">
     {%- assign sortedPaginatedLinks = paginatedLinks | sort: 'title' -%}
     {%- for paginatedLink in sortedPaginatedLinks %}
-        <font face="Courier" size="1"><li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }}</a></li></font>
+        <li><a href="{{ paginatedLink.url }}">{{ paginatedLink.title }}</a></li>
         {% assign totalCount = totalCount | plus: 1 %}
     {%- endfor %}
 </ol>
