@@ -607,6 +607,32 @@
       "hot": "",
       "date": "2023-12-23",
       "source": "joc"
+    },
+    {
+      "title": "Zuppa Toscana",
+      "url": "https://jiawp.neocities.org/x022.txt",
+      "key1": "italian",
+      "key2": "soup",
+      "key3": "sausage",
+      "id": "0000045",
+      "image": "https://jiawp.neocities.org/x022.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-23",
+      "source": "joc"
+    },
+    {
+      "title": "Coconut and Lemongrass Soup",
+      "url": "https://jiawp.neocities.org/x023.txt",
+      "key1": "thai",
+      "key2": "soup",
+      "key3": "chicken",
+      "id": "0000046",
+      "image": "https://jiawp.neocities.org/x023.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-23",
+      "source": "joc"
     }
 
   ]
