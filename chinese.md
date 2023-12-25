@@ -16,7 +16,7 @@ externalLinks: externalLinks.json
 
      {% for link in sortedLinks %}
         {% if link.key1 == "chinese" %}
-            <tr><td><a href="{{ paginatedLink.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ paginatedLink.url}}';"><font face="Courier" size="1">{{ paginatedLink.title }}</font></a></td></tr>
+            <tr><td><a href="{{ link.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ link.url}}';"><font face="Courier" size="1">{{ link.title }}</font></a></td></tr>
 
         {% endif %} 
     {% endfor %}
