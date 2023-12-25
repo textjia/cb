@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    {%- assign sortedLinks = externalLinks.links | sort: 'date' -%}
+    {%- assign sortedLinks = externalLinks.links | sort: 'date', order: 'reverse' -%}
     {%- for link in sortedLinks -%}
     
     <a href="{{ link.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ link.url }}';">
@@ -48,12 +48,11 @@
 
 
 
-   <table border="0">
+  
 
     
 
-  </table>
-
+  
   
 </body>
 
