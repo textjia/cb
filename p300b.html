@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Pixel Page</title>
+    <style>
+        body {
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap to the next row */
+            gap: 0; /* Remove the gap between flex items */
+            background-color: #000000; /* Set background color */
+        }
+
+        a {
+            flex: 0 0 32px; /* Set flex properties to control item sizing */
+            margin: 0; /* Remove default margins */
+            padding: 0; /* Remove default padding */
+            display: block; /* Make anchor elements block-level */
+            text-decoration: none; /* Remove underline */
+            color: inherit; /* Inherit text color */
+        }
+
+        img {
+            vertical-align: top; /* Align images to the top */
+            margin: 0; /* Remove image margins */
+            padding: 0; /* Remove image padding */
+            width: 64px; /* Set width to 64 pixels */
+            height: 64px; /* Set height to 64 pixels */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+        }
+    </style>
+</head>
+
+<body>
+    {%- assign sortedLinks = externalLinks.links | sort: 'title' -%}
+    {%- for link in sortedLinks -%}
+    {% if link.key1 == "filipino" %}
+    <a href="{{ link.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ link.url }}';">
+        <img src="{{ link.image }}" title="{{ link.title }}">
+    </a>
+    {% endif %}
+    {%- endfor -%}
+</body>
+
+</html>
