@@ -9,31 +9,33 @@ externalLinks: externalLinks.json
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>32 Pixel Page</title>
-    <style>
-        body {
-            margin: 0; /* Remove default body margin */
-            padding: 0; /* Remove default body padding */
-            display: flex;
-            flex-direction: column; /* Set flex direction to column */
-            gap: 0; /* Remove the gap between flex items */
-            background-color: #000000; /* Set background color */
-        }
+  <style>
+      body {
+          margin: 0; /* Remove default body margin */
+          padding: 0; /* Remove default body padding */
+          display: flex;
+          flex-wrap: wrap; /* Allow items to wrap to the next row */
+          gap: 0; /* Remove the gap between flex items */
+          background-color: #000000; /* Set background color */
+      }
 
-        a {
-            flex: 0 0 32px; /* Set flex properties to control item sizing */
-            margin: 0; /* Remove default margins */
-            padding: 0; /* Remove default padding */
-            display: block; /* Make anchor elements block-level */
-            text-decoration: none; /* Remove underline */
-            color: inherit; /* Inherit text color */
-        }
+      a {
+          flex: 0 0 32px; /* Set flex properties to control item sizing */
+          margin: 0; /* Remove default margins */
+          padding: 0; /* Remove default padding */
+          display: block; /* Make anchor elements block-level */
+          text-decoration: none; /* Remove underline */
+          color: inherit; /* Inherit text color */
+      }
 
-        img {
-            vertical-align: top; /* Align images to the top */
-            margin: 0; /* Remove image margins */
-            padding: 0; /* Remove image padding */
-        }
-    </style>
+      img {
+          vertical-align: top; /* Align images to the top */
+          margin: 0; /* Remove image margins */
+          padding: 0; /* Remove image padding */
+          width: 100%; /* Make images fill the entire width of the container */
+          height: auto; /* Maintain aspect ratio */
+      }
+  </style>
 </head>
 
 <body>
