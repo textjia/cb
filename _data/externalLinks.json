@@ -711,6 +711,32 @@
       "hot": "",
       "date": "2023-12-25",
       "source": "joc"
+    },
+    {
+      "title": "Falafel",
+      "url": "https://jiawp.neocities.org/x030.txt",
+      "key1": "middle-eastern",
+      "key2": "appetizer",
+      "key3": "chickpea",
+      "id": "0000053",
+      "image": "https://jiawp.neocities.org/x030.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-25",
+      "source": "joc"
+    },
+    {
+      "title": "Caribbean Jerk Chicken",
+      "url": "https://jiawp.neocities.org/x031.txt",
+      "key1": "caribbean",
+      "key2": "entree",
+      "key3": "chicken",
+      "id": "0000054",
+      "image": "https://jiawp.neocities.org/x031.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-25",
+      "source": "joc"
     }
 
   ]
