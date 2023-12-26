@@ -1,7 +1,3 @@
----
-title:  300e Page
-externalLinks: externalLinks.json
----
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +12,7 @@ externalLinks: externalLinks.json
             display: flex;
             flex-wrap: wrap; /* Allow items to wrap to the next row */
             gap: 0; /* Remove the gap between flex items */
-            background-color: #ffffff; /* Set background color */
+            background-color: #000000; /* Set background color */
         }
 
         a {
@@ -40,18 +36,10 @@ externalLinks: externalLinks.json
 </head>
 
 <body>
-    {%- assign sortedLinks = externalLinks.links | sort: 'title' -%}
-    {%- for link in sortedLinks -%}
-   {% if link.fav == "yes" %}
 
-    <a href="{{ link.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ link.url }}';">
-        <img src="{{ link.image }}" title="{{ link.title }}">
+    <a href="https://jiawp.neocities.org/x001.png" target="right-top" onClick="window.parent.frames['right-bottom'].location='https://jiawp.neocities.org/x001.txt';">
+        <img src="https://jiawp.neocities.org/x001.png" title="Burbon Chicken">
     </a>
-  {% endif %} 
-
-    {%- endfor -%}
-
-
-</body>
+  </body>
 
 </html>
