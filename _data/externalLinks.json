@@ -106,7 +106,7 @@
       "key3": "dough",
       "id": "0000009",
       "image": "https://jiawp.neocities.org/cjj012.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-19",
       "source": ""
@@ -120,7 +120,7 @@
       "key3": "dough",
       "id": "0000008",
       "image": "https://jiawp.neocities.org/cjj011.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-19",
       "source": ""
@@ -134,7 +134,7 @@
       "key3": "beef",
       "id": "0000010",
       "image": "https://jiawp.neocities.org/cjj013.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-19",
       "source": ""
@@ -162,7 +162,7 @@
       "key3": "chicken",
       "id": "0000011",
       "image": "https://jiawp.neocities.org/cjj014.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -204,7 +204,7 @@
       "key3": "chicken",
       "id": "0000015",
       "image": "https://jiawp.neocities.org/cjj018.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -232,7 +232,7 @@
       "key3": "pork",
       "id": "0000017",
       "image": "https://jiawp.neocities.org/cjj020.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -246,7 +246,7 @@
       "key3": "pork",
       "id": "0000018",
       "image": "https://jiawp.neocities.org/cjj021.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -260,7 +260,7 @@
       "key3": "pork",
       "id": "0000019",
       "image": "https://jiawp.neocities.org/CJJ022.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -302,7 +302,7 @@
       "key3": "onion",
       "id": "0000022",
       "image": "https://jiawp.neocities.org/cjj025.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -316,7 +316,7 @@
       "key3": "cabbage",
       "id": "0000023",
       "image": "https://jiawp.neocities.org/cjj026.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-20",
       "source": ""
@@ -344,7 +344,7 @@
       "key3": "pork",
       "id": "0000025",
       "image": "https://jiawp.neocities.org/x002.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-22",
       "source": "bamboo"
@@ -414,7 +414,7 @@
       "key3": "beef",
       "id": "0000030",
       "image": "https://jiawp.neocities.org/x007.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-22",
       "source": ""
@@ -442,7 +442,7 @@
       "key3": "chicken",
       "id": "0000032",
       "image": "https://jiawp.neocities.org/x009.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-23",
       "source": ""
@@ -470,7 +470,7 @@
       "key3": "ground-beef",
       "id": "0000034",
       "image": "https://jiawp.neocities.org/x011.png",
-      "fav": "",
+      "fav": "yes",
       "hot": "",
       "date": "2023-12-23",
       "source": ""
