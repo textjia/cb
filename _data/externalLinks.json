@@ -1829,7 +1829,47 @@
       "hot": "",
       "date": "2023-12-27",
       "source": ""
+    },
+    {
+      "title": "Eight Treasures Rice Pudding",
+      "url": "https://jiawp.neocities.org/x116.txt",
+      "key1": "chinese",
+      "key2": "dessert",
+      "key3": "red-bean",
+      "id": "0000139",
+      "image": "https://jiawp.neocities.org/x116.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-27",
+      "source": ""
+    },
+    {
+      "title": "Oyster Vermicelli",
+      "url": "https://jiawp.neocities.org/x117.txt",
+      "key1": "taiwanese",
+      "key2": "rice-noodle",
+      "key3": "oyster",
+      "id": "0000140",
+      "image": "https://jiawp.neocities.org/x117.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-27",
+      "source": ""
+    },
+    {
+      "title": "Singapore Noodle",
+      "url": "https://jiawp.neocities.org/x118.txt",
+      "key1": "chinese",
+      "key2": "rice-noodle",
+      "key3": "chicken",
+      "id": "0000141",
+      "image": "https://jiawp.neocities.org/x118.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-27",
+      "source": ""
     }
+
 
 
 
