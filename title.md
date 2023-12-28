@@ -3,7 +3,7 @@ layout: layout.html
 title: Title Page
 externalLinks: externalLinks.json
 pagination:
-  data: externalLinks.links
+  data: externalLinks.links |  sort: 'title' 
   size: 33
   alias: paginatedLinks
   reverse: false
@@ -14,7 +14,7 @@ pagination:
 {% assign sortedLinks = externalLinks.links | sort: 'title' %}
 
 <table border="0">
-  {%- for paginatedLink in sortedLinks -%}
+  {%- for paginatedLink in paginatedLinks -%}
     <tr>
       <td>
         <a href="{{ paginatedLink.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ paginatedLink.url}}';">
