@@ -2,11 +2,6 @@
 layout: layout.html
 title: Title Page
 externalLinks: externalLinks.json
-pagination:
-  data: externalLinks.links |  sort: 'title' 
-  size: 33
-  alias: paginatedLinks
-  reverse: false
 ---
 <font face="Courier" size="1">by Recipe Title</font>
 
@@ -14,11 +9,11 @@ pagination:
 {% assign sortedLinks = externalLinks.links | sort: 'title' %}
 
 <table border="0">
-  {%- for paginatedLink in paginatedLinks -%}
+  {%- for link in sortedLinks -%}
     <tr>
       <td>
-        <a href="{{ paginatedLink.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ paginatedLink.url}}';">
-          <font face="Courier" size="1">{{ paginatedLink.title }}</font>
+        <a href="{{ link.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ link.url}}';">
+          <font face="Courier" size="1">{{ link.title }}</font>
         </a>
       </td>
     </tr>
