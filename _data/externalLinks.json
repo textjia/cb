@@ -2635,6 +2635,97 @@
       "hot": "",
       "date": "2023-12-29",
       "source": ""
+    },
+    {
+      "title": "Chicken Lo Mein",
+      "url": "https://jiawp.neocities.org/x178.txt",
+      "key1": "chinese",
+      "key2": "noodle",
+      "key3": "chicken",
+      "id": "0000201",
+      "image": "https://jiawp.neocities.org/x178.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Red Braised Beef",
+      "url": "https://jiawp.neocities.org/x179.txt",
+      "key1": "chinese",
+      "key2": "entree",
+      "key3": "beef",
+      "id": "0000202",
+      "image": "https://jiawp.neocities.org/x179.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Chop Suey",
+      "url": "https://jiawp.neocities.org/x180.txt",
+      "key1": "chinese",
+      "key2": "stir-fry",
+      "key3": "chicken",
+      "id": "0000203",
+      "image": "https://jiawp.neocities.org/x180.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Mongolian Beef",
+      "url": "https://jiawp.neocities.org/x181.txt",
+      "key1": "chinese",
+      "key2": "stir-fry",
+      "key3": "beef",
+      "id": "0000204",
+      "image": "https://jiawp.neocities.org/x181.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Orange Chicken",
+      "url": "https://jiawp.neocities.org/x182.txt",
+      "key1": "chinese",
+      "key2": "stir-fry",
+      "key3": "chicken",
+      "id": "0000205",
+      "image": "https://jiawp.neocities.org/x182.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Pepper Steak",
+      "url": "https://jiawp.neocities.org/x183.txt",
+      "key1": "chinese",
+      "key2": "stir-fry",
+      "key3": "beef",
+      "id": "0000206",
+      "image": "https://jiawp.neocities.org/x183.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Bo Luc Lac",
+      "url": "https://jiawp.neocities.org/x184.txt",
+      "key1": "vietnamese",
+      "key2": "salad",
+      "key3": "beef",
+      "id": "0000207",
+      "image": "https://jiawp.neocities.org/x184.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
     }
 
 
