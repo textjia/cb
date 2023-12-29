@@ -2583,6 +2583,32 @@
       "hot": "",
       "date": "2023-12-29",
       "source": ""
+    },
+    {
+      "title": "Beef & Onion Piroshki",
+      "url": "https://jiawp.neocities.org/rus1.txt",
+      "key1": "russian",
+      "key2": "appetizer",
+      "key3": "beef",
+      "id": "0000197",
+      "image": "https://jiawp.neocities.org/z174.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Chicken Stroganoff",
+      "url": "https://jiawp.neocities.org/rus.txt",
+      "key1": "russian",
+      "key2": "entree",
+      "key3": "chicken",
+      "id": "0000198",
+      "image": "https://jiawp.neocities.org/x175.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
     }
 
 
