@@ -2544,6 +2544,32 @@
       "hot": "",
       "date": "2023-12-29",
       "source": ""
+    },
+    {
+      "title": "Muffuletta Sandwich",
+      "url": "https://jiawp.neocities.org/muff.txt",
+      "key1": "general",
+      "key2": "sandwich",
+      "key3": "ham",
+      "id": "0000194",
+      "image": "https://jiawp.neocities.org/x171.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Mediterranean Chickpea Sandwich",
+      "url": "https://jiawp.neocities.org/ger.txt",
+      "key1": "middle-eastern",
+      "key2": "sandwich",
+      "key3": "chickpea",
+      "id": "0000195",
+      "image": "https://jiawp.neocities.org/x172.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
     }
 
 
