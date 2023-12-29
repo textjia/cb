@@ -2609,6 +2609,32 @@
       "hot": "",
       "date": "2023-12-29",
       "source": ""
+    },
+    {
+      "title": "Katsu Curry",
+      "url": "https://jiawp.neocities.org/jap2.txt",
+      "key1": "japanese",
+      "key2": "entree",
+      "key3": "chicken",
+      "id": "0000199",
+      "image": "https://jiawp.neocities.org/x176.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
+    },
+    {
+      "title": "Miso Soup",
+      "url": "https://jiawp.neocities.org/miso.txt",
+      "key1": "japanese",
+      "key2": "soup",
+      "key3": "tofu",
+      "id": "0000200",
+      "image": "https://jiawp.neocities.org/x177.png",
+      "fav": "",
+      "hot": "",
+      "date": "2023-12-29",
+      "source": ""
     }
 
 
