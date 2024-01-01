@@ -1,6 +1,6 @@
 ---
 layout: layout.html
-title:  Spanish
+title:  Irish
 externalLinks: externalLinks.json
 ---
 
