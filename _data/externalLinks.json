@@ -7864,6 +7864,45 @@
       "hot": "",
       "date": "2024-01-12",
       "source": ""
+    },
+    {
+      "title": "Moules Frites",
+      "url": "https://jiawp.neocities.org/x582.txt",
+      "key1": "belgian",
+      "key2": "entree",
+      "key3": "mussel",
+      "id": "0000605",
+      "image": "https://jiawp.neocities.org/x582.png",
+      "fav": "",
+      "hot": "",
+      "date": "2024-01-15",
+      "source": ""
+    },
+    {
+      "title": "Carbonnade Flamande",
+      "url": "https://jiawp.neocities.org/x583.txt",
+      "key1": "belgian",
+      "key2": "stew",
+      "key3": "beef",
+      "id": "0000606",
+      "image": "https://jiawp.neocities.org/x583.png",
+      "fav": "",
+      "hot": "",
+      "date": "2024-01-15",
+      "source": ""
+    },
+    {
+      "title": "Kippenwaterzooi",
+      "url": "https://jiawp.neocities.org/x584.txt",
+      "key1": "belgian",
+      "key2": "stew",
+      "key3": "chicken",
+      "id": "0000607",
+      "image": "https://jiawp.neocities.org/x584.png",
+      "fav": "",
+      "hot": "",
+      "date": "2024-01-15",
+      "source": ""
     }
 
 
