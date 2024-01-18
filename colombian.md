@@ -1,6 +1,6 @@
 ---
 layout: layout.html
-title:  Columbian
+title:  Colombian
 externalLinks: externalLinks.json
 ---
 
@@ -15,7 +15,7 @@ externalLinks: externalLinks.json
      {%- assign sortedLinks = externalLinks.links | sort: 'title' -%}
 
      {% for link in sortedLinks %}
-        {% if link.key1 == "columbian" %}
+        {% if link.key1 == "colombian" %}
             <tr><td><a href="{{ link.image }}" target="right-top" onClick="window.parent.frames['right-bottom'].location='{{ link.url}}';"><font face="Courier" size="1">{{ link.title }}</font></a></td></tr>
 
         {% endif %} 
