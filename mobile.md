@@ -1,0 +1,67 @@
+---
+title: Mobile Page
+externalLinks: externalLinks.json
+---
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>mobile wip</title>
+    <!-- Bootstrap CSS CDN for responsive design -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="container mt-3">
+    <h3>mobile wip</h3>
+    <input type="text" id="searchInput" class="form-control mb-2" placeholder="Search">
+    <button onclick="filterLinks()" class="btn btn-primary mb-2">Search</button>
+
+    {% assign sortedLinks = externalLinks.links | sort: 'title' %}
+  
+    <ul id="linkList" class="list-group">
+    
+    {%- for link in sortedLinks -%}
+            <li><a href={{ link.url }}>{{ link.title }}</a></li>
+      {%- endfor -%}
+      
+    </ul>
+
+    <script>
+        function filterLinks() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById('linkList');
+            li = ul.getElementsByTagName('li');
+
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName('a')[0];
+                txtValue = a.textContent || a.innerText;
+
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li[i].style.display = 'none';
+                }
+            }
+        }
+    </script>
+
+    <!-- Bootstrap JS and Popper.js CDN (needed for Bootstrap JavaScript components) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+  
+
+
+
