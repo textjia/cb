@@ -3,7 +3,7 @@ layout: layout.html
 title: Title Page
 externalLinks: externalLinks.json
 ---
-<font face="Courier" size="1">by Recipe Title</font>
+<font face="Courier" size="1">by Recipe Title</font> <font face="Courier" size="1">[<a href="https://cb-p21o.onrender.com/mobile">SEARCH</a>]</font>
 
 {% assign totalCount = 0 %}
 {% assign sortedLinks = externalLinks.links | sort: 'title' %}
