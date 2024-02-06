@@ -13198,15 +13198,591 @@
       "date": "2024-02-02",
       "source": ""
     }
+    ,
+{
+"title": "Swordfish Sicilian-Style",
+"url": "https://jiawp.neocities.org/d295.txt",
+"key1": "french",
+"key2": "appetizer",
+"key3": "duck",
+"id": "0001019",
+"image": "https://jiawp.neocities.org/x996.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Ham Steaks in Madeira Sauce",
+"url": "https://jiawp.neocities.org/d296.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "ham",
+"id": "0001020",
+"image": "https://jiawp.neocities.org/x997.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Vegetable Hot-and-Sour Soup",
+"url": "https://jiawp.neocities.org/d298.txt",
+"key1": "general",
+"key2": "soup",
+"key3": "veggie",
+"id": "0001021",
+"image": "https://jiawp.neocities.org/x998.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Catalan Tomato Bread",
+"url": "https://jiawp.neocities.org/d299.txt",
+"key1": "general",
+"key2": "bread",
+"key3": "tomato",
+"id": "0001022",
+"image": "https://jiawp.neocities.org/x999.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Caramelized Black Pepper Chicken",
+"url": "https://jiawp.neocities.org/d300.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "chicken",
+"id": "0001023",
+"image": "https://jiawp.neocities.org/x1000.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Smoked Salmon Pizza with Crème Fraîche and Caviar",
+"url": "https://jiawp.neocities.org/d301.txt",
+"key1": "general",
+"key2": "pizza",
+"key3": "salmon",
+"id": "0001024",
+"image": "https://jiawp.neocities.org/x1001.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Smoked Salmon Pizza with Crème Fraîche and Caviar",
+"url": "https://jiawp.neocities.org/d301.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "chicken",
+"id": "0001024",
+"image": "https://jiawp.neocities.org/x1001.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Shrimp and Corn Chowder",
+"url": "https://jiawp.neocities.org/d303.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "shrimp",
+"id": "0001026",
+"image": "https://jiawp.neocities.org/x1003.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Pasta with Sausage, Basil, and Mustard",
+"url": "https://jiawp.neocities.org/d304.txt",
+"key1": "general",
+"key2": "pasta",
+"key3": "sausage",
+"id": "0001027",
+"image": "https://jiawp.neocities.org/x1004.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Breton Butter Cake",
+"url": "https://jiawp.neocities.org/d306.txt",
+"key1": "general",
+"key2": "dessert",
+"key3": "butter",
+"id": "0001028",
+"image": "https://jiawp.neocities.org/x1005.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Antipasto Salad with Green Olive Tapenade",
+"url": "https://jiawp.neocities.org/d307.txt",
+"key1": "general",
+"key2": "salad",
+"key3": "olive",
+"id": "0001029",
+"image": "https://jiawp.neocities.org/x1006.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Crispy Okra Salad",
+"url": "https://jiawp.neocities.org/d308.txt",
+"key1": "general",
+"key2": "salad",
+"key3": "okra",
+"id": "0001030",
+"image": "https://jiawp.neocities.org/x1007.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Pan-Roasted Salmon with Tomato Vinaigrette",
+"url": "https://jiawp.neocities.org/d309.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "salmon",
+"id": "0001031",
+"image": "https://jiawp.neocities.org/x1008.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Tiki Snack Mix",
+"url": "https://jiawp.neocities.org/d310.txt",
+"key1": "general",
+"key2": "side",
+"key3": "rice-krispy",
+"id": "0001032",
+"image": "https://jiawp.neocities.org/x1009.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Kogi Dogs",
+"url": "https://jiawp.neocities.org/d311.txt",
+"key1": "general",
+"key2": "appetizer",
+"key3": "hot-dog",
+"id": "0001033",
+"image": "https://jiawp.neocities.org/x1010.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Kimchi-Creamed Collard Greens",
+"url": "https://jiawp.neocities.org/d313.txt",
+"key1": "asian-fusion",
+"key2": "side",
+"key3": "kimchi",
+"id": "0001034",
+"image": "https://jiawp.neocities.org/x1011.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Baltimore-Style Crab Cakes",
+"url": "https://jiawp.neocities.org/d314.txt",
+"key1": "general",
+"key2": "appetizer",
+"key3": "crab",
+"id": "0001035",
+"image": "https://jiawp.neocities.org/x1012.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Farro and Green Olive Salad with Walnuts and Raisins",
+"url": "https://jiawp.neocities.org/d315.txt",
+"key1": "general",
+"key2": "salad",
+"key3": "olive",
+"id": "0001036",
+"image": "https://jiawp.neocities.org/x1013.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Spaghetti with Clams and Braised Greens",
+"url": "https://jiawp.neocities.org/d316.txt",
+"key1": "general",
+"key2": "pasta",
+"key3": "clam",
+"id": "0001037",
+"image": "https://jiawp.neocities.org/x1014.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Tomatoes with Herbs and Almond Vinaigrette",
+"url": "https://jiawp.neocities.org/d317.txt",
+"key1": "general",
+"key2": "salad",
+"key3": "tomato",
+"id": "0001038",
+"image": "https://jiawp.neocities.org/x1015.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Chickpeas and Kale in Spicy Pomodoro Sauce",
+"url": "https://jiawp.neocities.org/d318.txt",
+"key1": "general",
+"key2": "appetizer",
+"key3": "chickpea",
+"id": "0001039",
+"image": "https://jiawp.neocities.org/x1016.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Cinnamon Baked French Toast",
+"url": "https://jiawp.neocities.org/d319.txt",
+"key1": "general",
+"key2": "breakfast",
+"key3": "cinnamon",
+"id": "0001040",
+"image": "https://jiawp.neocities.org/x1017.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Brown Sugar Oatmeal Cookies",
+"url": "https://jiawp.neocities.org/d320.txt",
+"key1": "general",
+"key2": "dessert",
+"key3": "oatmeal",
+"id": "0001041",
+"image": "https://jiawp.neocities.org/x1018.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Wafflemaker Hash Browns",
+"url": "https://jiawp.neocities.org/d321.txt",
+"key1": "general",
+"key2": "side",
+"key3": "potato",
+"id": "0001042",
+"image": "https://jiawp.neocities.org/x1019.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
+,
+{
+"title": "Pan Fried Pork Chops",
+"url": "https://jiawp.neocities.org/d322.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "pork",
+"id": "0001043",
+"image": "https://jiawp.neocities.org/x1020.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Chicken Thighs with Creamy Mustard Sauce",
+"url": "https://jiawp.neocities.org/d323.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "chicken",
+"id": "0001044",
+"image": "https://jiawp.neocities.org/x1021.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Cauliflower Pizza Crust",
+"url": "https://jiawp.neocities.org/d324.txt",
+"key1": "general",
+"key2": "pizza",
+"key3": "cauliflower",
+"id": "0001045",
+"image": "https://jiawp.neocities.org/x1022.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Pesto Lasagna Rolls",
+"url": "https://jiawp.neocities.org/d325.txt",
+"key1": "general",
+"key2": "roll",
+"key3": "pesto",
+"id": "0001046",
+"image": "https://jiawp.neocities.org/x1023.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Chicken Tortilla Dump Dinner",
+"url": "https://jiawp.neocities.org/d326.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "chicken",
+"id": "0001047",
+"image": "https://jiawp.neocities.org/x1024.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Chocolate Lava Cakes",
+"url": "https://jiawp.neocities.org/d327.txt",
+"key1": "general",
+"key2": "dessert",
+"key3": "chocolate",
+"id": "0001048",
+"image": "https://jiawp.neocities.org/x1025.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Alfredo Shrimp Scampi Dump Dinner",
+"url": "https://jiawp.neocities.org/d328.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "shrimp",
+"id": "0001049",
+"image": "https://jiawp.neocities.org/x1026.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Southern Red Velvet Cake",
+"url": "https://jiawp.neocities.org/d329.txt",
+"key1": "general",
+"key2": "dessert",
+"key3": "flour",
+"id": "0001050",
+"image": "https://jiawp.neocities.org/x1027.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Chicken and Broccoli Stir-Fry",
+"url": "https://jiawp.neocities.org/d330.txt",
+"key1": "chinese",
+"key2": "stir-fry",
+"key3": "chicken",
+"id": "0001051",
+"image": "https://jiawp.neocities.org/x1028.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Chicken Scampi Pasta",
+"url": "https://jiawp.neocities.org/d331.txt",
+"key1": "general",
+"key2": "pasta",
+"key3": "chicken",
+"id": "0001052",
+"image": "https://jiawp.neocities.org/x1029.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Roasted Sweet Potatoes with Honey and Cinnamon",
+"url": "https://jiawp.neocities.org/d332.txt",
+"key1": "general",
+"key2": "side",
+"key3": "sweet-potato",
+"id": "0001053",
+"image": "https://jiawp.neocities.org/x1030.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Funeral Potatoes",
+"url": "https://jiawp.neocities.org/d333.txt",
+"key1": "general",
+"key2": "side",
+"key3": "potato",
+"id": "0001054",
+"image": "https://jiawp.neocities.org/x1031.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Crumble Lover's Sheet-Pan Apple Crumble",
+"url": "https://jiawp.neocities.org/d334.txt",
+"key1": "general",
+"key2": "dessert",
+"key3": "apple",
+"id": "0001055",
+"image": "https://jiawp.neocities.org/x1032.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+
+,
+{
+"title": "Bucatini al Limone",
+"url": "https://jiawp.neocities.org/d335.txt",
+"key1": "general",
+"key2": "pasta",
+"key3": "lemon",
+"id": "0001056",
+"image": "https://jiawp.neocities.org/x1033.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Chicken-Fried Steak with Gravy",
+"url": "https://jiawp.neocities.org/d337.txt",
+"key1": "general",
+"key2": "entree",
+"key3": "chicken",
+"id": "0001057",
+"image": "https://jiawp.neocities.org/x1034.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+,
+{
+"title": "Roasted Brussels Sprouts",
+"url": "https://jiawp.neocities.org/d338.txt",
+"key1": "general",
+"key2": "veggie",
+"key3": "brussels-sprouts",
+"id": "0001058",
+"image": "https://jiawp.neocities.org/x1035.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
+
+,
+{
+"title": "Easy Cheese Danish",
+"url": "https://jiawp.neocities.org/d339.txt",
+"key1": "general",
+"key2": "dessert",
+"key3": "cheese",
+"id": "0001059",
+"image": "https://jiawp.neocities.org/x1036.png",
+"fav": "",
+"hot": "",
+"date": "2024-02-06",
+"source": ""
+}
 
 
 
